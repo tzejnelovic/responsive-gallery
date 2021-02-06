@@ -1,0 +1,42 @@
+body  {
+    width: auto;
+    height: auto;
+}
+
+img{
+    background-color:#6767ff;
+    
+}
+
+.gallery{
+    flex-flow: row wrap;
+    display: flex;
+}
+
+.gallery div{
+    flex: auto;
+    width: 200px;
+    margin: .5vw;
+    border-radius: 25px;
+}
+
+.gallery div img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px 25px 0 0 ;
+}
+
+.gallery1{
+    margin:20%
+}
+
+
+
+.image {
+    border-radius: 12px;
+    box-shadow: 4px 7px 27px 1px #888888;
+}
+.title{
+    text-align: center;
+    font-size: 17px;
+}
